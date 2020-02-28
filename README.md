@@ -27,6 +27,7 @@ I recommend exploring the notebooks in the following order so you can learn one 
 - **MultipleFeatureMLModel.ipynb** - In the first notebook you were only able to make a prediction based on a single column of data. In this notebook we try training a model with multiple columns of data (Distance & Departure delay) to see if we get better accuracy
 - **NonNumericFeaturelinear.ipynb** - In the first two notebooks we deliberately chose numeric columns to make our predictions, but what if you want to make predictions based on a non-numeric value? In this notebook we try to predict flight delay based on which airline is operating the flight using a technique called one-hot encoding.
 - **NonNumericMultipleFeatureLinear.ipynb** - In this notebook we combine all the techniques from the previous notebooks to use a combination of numeric and non-numeric columns to predict arrival flight delay.
+- **LinearRegressionOrdinalFeature.ipynb** - In this notebook, we transform distance from a continuous value to a numeric ranking indicating short, medium, and long trips to try and improve our model.
 
 ## Machine Learning concepts
 The notebooks walk you through the basic steps of machine learning
